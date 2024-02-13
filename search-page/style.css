@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#search-sec>div {
+    height: 350px;
+    overflow: hidden;
+    background-image: url(../assets/books.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-sec>div button{
+    color: white;
+    background-color: #433227;
+    font-weight: 700;
+    border-color: #433227;
+}
+
+#search-sec>div form{
+    min-width: 50%;
+}
+
+.modal-title, .modal-body{
+    color: white
+}
