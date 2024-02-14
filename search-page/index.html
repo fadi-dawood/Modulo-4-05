@@ -70,6 +70,7 @@
                         </div>
                         <!--! Cart items  -->
                         <div id="cart-items" class="modal-body">
+                            <p>Number of Books: <span id="NumOfItemsCart">0</span></p>
                             <!--* Cart item tamplate -->
                             <!-- <div class="card mb-3 cart-item" style="max-width: 540px;">
                                 <div class="row g-0">
@@ -90,8 +91,8 @@
                             </div> -->
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
+                            <button type="button" class="btn btn-secondary" id="empty-cart">Empty your Cart</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -111,6 +112,7 @@
 
     <section id="result-sec">
         <div id="books-container" class="container-fluid p-4 row d-flex justify-content-center">
+            
             <!--* Card container tamplate -->
             <!-- <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
                 <img src="assets/books.jpeg" class="card-img-top" alt="...">

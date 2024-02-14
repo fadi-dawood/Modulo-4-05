@@ -27,3 +27,8 @@
 .modal-title, .modal-body{
     color: white
 }
+
+.added-to-cart{
+    -webkit-box-shadow: 5px 5px 9px -2px #243823; 
+    box-shadow: 5px 5px 9px -2px #243823!important;
+}
